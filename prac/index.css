@@ -1,0 +1,53 @@
+body{
+    background-color:#efe6d5;
+}
+
+.nav-bar{
+    list-style-type:none;
+    position: relative;
+ font-size: 34px;
+ padding: none;
+ margin-top: -2rem;
+    background-color:#9dbeb7;
+}
+.nav-bar li{
+    display: inline;
+    margin: 1rem;
+}
+.nav-bar li:hover{
+    background-color:#e73213;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.done{
+    text-align: center;
+    font-size: 24px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.In-progress {
+    text-align: center;
+    font-size: 24px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.to-do{
+    text-align: center;
+    font-size: 24px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.add-btn{
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 32px;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 10px; 
+    background-color:#9dbeb7;
+    bottom: 10px;
+}
